@@ -127,6 +127,7 @@ body {
 }
 
 /* --- Media Queries for Responsive Design --- */
+/* Tablets */
 @media screen and (max-width: 1024px) {
   .slider {
     width: 600px;
@@ -138,3 +139,39 @@ body {
     height: 400px;
   }
 }
+
+/* Large phones */
+@media screen and (max-width: 768px) {
+  .slider {
+    width: 500px;
+    height: 300px;
+  }
+
+  .slide img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+  .slider {
+    width: 350px;
+    height: 250px;
+  }
+
+  .slide img {
+    width: 350px;
+    height: 250px;
+  }
+
+  .mannual-btn {
+    padding: 3px;
+    margin-right: 20px;
+  }
+
+  .navigation-mannual {
+    margin-top: -30px;
+  }
+}
+
